@@ -12,7 +12,7 @@ const filebeatInputConfig: YamlConfigSchema[] = [
     ui: {
       label: 'Paths',
       type: 'multi-input',
-      helpText: 'Put each of the paths on a seperate line',
+      helpText: 'Put each of the paths on a separate line',
       placeholder: `first/path/to/file.json                   second/path/to/otherfile.json`,
     },
     validations: 'isPaths',
@@ -280,7 +280,7 @@ const metricbeatModuleConfig: YamlConfigSchema[] = [
     ui: {
       label: 'Hosts',
       type: 'multi-input',
-      helpText: 'Put each of the paths on a seperate line',
+      helpText: 'Put each of the paths on a separate line',
       placeholder: `somehost.local                                                             otherhost.local`,
     },
     validations: 'isHosts',
